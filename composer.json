@@ -1,0 +1,21 @@
+{
+    "name": "syjbd/sy-redis",
+    "description": "redis package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Syjbd\\SyRedis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-redis": "*"
+    }
+}
